@@ -50,7 +50,6 @@ jobs:
       with:
         key: cached-build-${{github.sha}}
         path: .
-        build:
   build:
     name: Build and analyze
     runs-on: ubuntu-latest
